@@ -1,16 +1,16 @@
-# The Reintegrator
+# PCM510xA I2S Stereo DAC
 
-### Convert a balanced Class-D speaker-level audio signal to an unbalanced audio line level.
+### 
 
-A mono Class-D audio to unbalanced audio line signal output converter. This version can act as a backpack for the Adafruit I2S 3watt audio amplifier.
+An I2S stereo audio DAC with an internal master clock PLL and a charge pump for direct-coupled ground-centered audio output.
 
-[The Reintegrator board schematic](https://github.com/CedarGroveStudios/PCB_Reintegrator/blob/main/PCB/breakout.pdf)
-
-
-
-OSH Park:
-[https://oshpark.com/shared_projects/iI4kd3TW](https://oshpark.com/shared_projects/9TV0nn3f)
+[Schematic](https://github.com/CedarGroveStudios/PCB_PCM510xA_I2S_DAC/blob/main/PCB/PCM510xA_I2S_DAC.pdf)
 
 
-![The Reintegrator glamour photo](https://github.com/CedarGroveStudios/PCB_Reintegrator/blob/main/media/reintegrator_top_glamour.png)
+
+OSH Park PCB:
+[https://oshpark.com/shared_projects/HCcZTL2V](https://oshpark.com/shared_projects/HCcZTL2V)
+
+
+![glamour photo](https://github.com/CedarGroveStudios/PCB_Reintegrator/blob/main/media/reintegrator_top_glamour.png)
 
