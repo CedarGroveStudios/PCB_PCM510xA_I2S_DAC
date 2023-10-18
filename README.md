@@ -12,5 +12,5 @@ OSH Park PCB:
 [https://oshpark.com/shared_projects/HCcZTL2V](https://oshpark.com/shared_projects/HCcZTL2V)
 
 
-![glamour photo](https://github.com/CedarGroveStudios/PCB_Reintegrator/blob/main/media/reintegrator_top_glamour.png)
+![glamour photo](https://github.com/CedarGroveStudios/PCB_PCM510xA_I2S_DAC/blob/main/media/PCM510xA_I2S_DAC_glamour_top.png)
 
