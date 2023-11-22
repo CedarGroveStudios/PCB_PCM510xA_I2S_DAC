@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/Users/cedargrove/Documents/GitHub/PCB_PCM510xA_I2S_DAC/PCB/PCM510xA_I2S_DAC.kicad_sch</source>
-    <date>2023 October 17, Tuesday 12:53:10</date>
-    <tool>Eeschema 7.0.8</tool>
+    <date>Wednesday, November 22, 2023 at 11:30:16 AM</date>
+    <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PCM510x_I2S_DAC Breakout</title>
         <company>Cedar Grove Studios</company>
-        <rev>0.0.2</rev>
-        <date>2023-10-02</date>
+        <rev>1.0.1</rev>
+        <date>2023-11-22</date>
         <source>PCM510xA_I2S_DAC.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -200,6 +200,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ba83ffbb-f333-404d-9a0a-9d77357ceef1</tstamps>
     </comp>
+    <comp ref="FB3">
+      <value>HZ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>024bfc82-d2ab-4ad9-9dc6-98d0cf92a0fd</tstamps>
+    </comp>
+    <comp ref="FB4">
+      <value>HZ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21a29ce0-2e16-45f2-9ce6-7455e3a51fc3</tstamps>
+    </comp>
     <comp ref="J1">
       <value>EDGE_PINS</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
@@ -221,17 +243,6 @@
       <property name="ki_keywords" value="audio jack receptacle stereo headphones phones TRS connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6e83bcad-9fe5-42d9-ad14-ea27f11ffdd8</tstamps>
-    </comp>
-    <comp ref="JP1">
-      <value>SCK</value>
-      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
-      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
-      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
-      <property name="ki_keywords" value="Solder Jumper SPDT"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c66c1bdf-e712-44b9-b6d0-2d7b9d6a7e4a</tstamps>
     </comp>
     <comp ref="R1">
       <value>470</value>
@@ -310,28 +321,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a00ea6f0-cc44-4173-b9c7-f5a86ae3f02f</tstamps>
     </comp>
-    <comp ref="TP4">
-      <value>3.3VA</value>
-      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5923f9cd-4675-45e8-a967-f1c1c3662160</tstamps>
-    </comp>
-    <comp ref="TP5">
-      <value>LDOO</value>
-      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8cba0b55-3d36-4d7b-af6c-614a84cfe4fd</tstamps>
-    </comp>
     <comp ref="U1">
       <value>PCM5101A</value>
       <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
@@ -345,36 +334,16 @@
       <tstamps>21459c2e-51ef-4fb9-acc4-d88ecafbfd9c</tstamps>
     </comp>
     <comp ref="U2">
-      <value>MIC5225-3.3</value>
+      <value>AP2112K-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <fields>
-        <field name="Check_prices">https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=eda</field>
-        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5</field>
-        <field name="DigiKey_Part_Number">576-2980-2-ND</field>
-        <field name="MANUFACTURER">Microchip</field>
-        <field name="MF">Microchip</field>
-        <field name="MP">MIC5225-3.3YM5-TR</field>
-        <field name="Package">SOT-23 Microchip</field>
-        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=379563&amp;manufacturer=Microchip&amp;part_name=MIC5225-3.3YM5-TR&amp;search_term=None</field>
-        <field name="STANDARD">IPC-7351B</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=snap</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="MIC5225-3.3YM5" description=""/>
-      <property name="DigiKey_Part_Number" value="576-2980-2-ND"/>
-      <property name="MF" value="Microchip"/>
-      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=379563&amp;manufacturer=Microchip&amp;part_name=MIC5225-3.3YM5-TR&amp;search_term=None"/>
-      <property name="Package" value="SOT-23 Microchip"/>
-      <property name="Check_prices" value="https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=eda"/>
-      <property name="STANDARD" value="IPC-7351B"/>
-      <property name="PARTREV" value=""/>
-      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=snap"/>
-      <property name="MP" value="MIC5225-3.3YM5-TR"/>
-      <property name="Description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5"/>
-      <property name="MANUFACTURER" value="Microchip"/>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCM510xA_I2S_DAC.kicad_sch"/>
+      <property name="ki_description" value="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9c8a536b-82c5-4811-b76d-f599cf320777</tstamps>
+      <tstamps>de8f2a31-15e8-4868-a259-5d30c2605dfb</tstamps>
     </comp>
   </components>
   <libparts>
@@ -551,42 +520,24 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
-      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
-      <docs>~</docs>
+    <libpart lib="Regulator_Linear" part="AP2112K-3.3">
+      <description>600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
       <footprints>
-        <fp>SolderJumper*Bridged12*</fp>
+        <fp>SOT?23?5*</fp>
       </footprints>
       <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_3_Bridged12</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="passive"/>
-        <pin num="3" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Regulator_Linear" part="MIC5225-3.3YM5">
-      <fields>
         <field name="Reference">U</field>
-        <field name="Value">MIC5225-3.3YM5</field>
+        <field name="Value">AP2112K-3.3</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="DigiKey_Part_Number">576-2980-2-ND</field>
-        <field name="MF">Microchip</field>
-        <field name="Package">SOT-23 Microchip</field>
-        <field name="STANDARD">IPC-7351B</field>
-        <field name="MP">MIC5225-3.3YM5-TR</field>
-        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5</field>
-        <field name="MANUFACTURER">Microchip</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="IN" type="input"/>
+        <pin num="1" name="VIN" type="power_in"/>
         <pin num="2" name="GND" type="power_in"/>
         <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="" type="no_connect"/>
-        <pin num="5" name="OUT" type="output"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
   </libparts>
@@ -606,9 +557,6 @@
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="Jumper">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
-    </library>
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
@@ -618,11 +566,10 @@
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="FB1" pin="1" pintype="passive"/>
-      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="DVDD" pintype="power_in"/>
-      <node ref="U2" pin="5" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="2" name="+3.3VA">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -630,7 +577,6 @@
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="CPVDD" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="AVDD" pintype="power_in"/>
     </net>
@@ -645,7 +591,6 @@
     <net code="5" name="/LDOO">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="LDOO" pintype="passive"/>
     </net>
     <net code="6" name="/LRC">
@@ -660,22 +605,18 @@
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="OUTR" pintype="output"/>
     </net>
-    <net code="9" name="/SCK">
-      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
-      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
-    </net>
-    <net code="10" name="/Vin">
+    <net code="9" name="/Vin">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="11" name="/~{SD}">
+    <net code="10" name="/~{SD}">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="XSMT" pintype="input"/>
     </net>
-    <net code="12" name="GND">
+    <net code="11" name="GND">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
@@ -684,14 +625,14 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="FB2" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="DEMP" pintype="input"/>
       <node ref="U1" pin="11" pinfunction="FLT" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
       <node ref="U1" pin="16" pinfunction="FMT" pintype="input"/>
       <node ref="U1" pin="19" pinfunction="DGND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="13" name="GNDA">
+    <net code="12" name="GNDA">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
@@ -705,39 +646,47 @@
       <node ref="U1" pin="3" pinfunction="CPGND" pintype="power_in"/>
       <node ref="U1" pin="9" pinfunction="AGND" pintype="power_in"/>
     </net>
-    <net code="14" name="Net-(C3-Pad1)">
+    <net code="13" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="FB3" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(C5-Pad1)">
+    <net code="14" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="J2" pin="R" pintype="passive"/>
+      <node ref="FB4" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D1-A)">
+    <net code="15" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(U1-CAPM)">
+    <net code="16" name="Net-(FB3-Pad2)">
+      <node ref="FB3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(FB4-Pad2)">
+      <node ref="FB4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="R" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-CAPM)">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="CAPM" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(U1-CAPP)">
+    <net code="19" name="Net-(U1-CAPP)">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="CAPP" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(U1-VNEG)">
+    <net code="20" name="Net-(U1-VNEG)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VNEG" pintype="passive"/>
     </net>
-    <net code="20" name="unconnected-(J1-Pin_4-Pad4)">
+    <net code="21" name="unconnected-(J1-Pin_4-Pad4)">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(U2-Pad4)">
-      <node ref="U2" pin="4" pintype="no_connect"/>
+    <net code="22" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>

@@ -1,29 +1,17 @@
-"Source:","/Users/cedargrove/Documents/GitHub/PCB_PCM510xA_I2S_DAC/PCB/PCM510xA_I2S_DAC.kicad_sch"
-"Date:","2023 October 17, Tuesday 12:53:10"
-"Tool:","Eeschema 7.0.8"
-"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","30"
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Check_prices","Description","DigiKey_Part_Number","MANUFACTURER","MF","MP","Package","Purchase-URL","STANDARD","SnapEDA_Link"
-"1","4","C1, C7, C9, C11","0.1uF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","~","","","","","","","","","","",""
-"2","4","C2, C8, C10, C12","10uF T","Device:C_Polarized_Small_US","Capacitor_SMD:C_0805_2012Metric","~","","","","","","","","","","",""
-"3","2","C3, C5","0.0022uF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","~","","","","","","","","","","",""
-"4","2","C4, C6","2.2uF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","~","","","","","","","","","","",""
-"5","1","C13","10uF","Device:C_Polarized_Small_US","Capacitor_SMD:C_0805_2012Metric","~","","","","","","","","","","",""
-"6","1","D1","PWR","Device:LED","LED_SMD:LED_0805_2012Metric","~","","","","","","","","","","",""
-"7","2","FB1, FB2","HZ","Device:FerriteBead_Small","Resistor_SMD:R_0805_2012Metric","~","","","","","","","","","","",""
-"8","1","J1","EDGE_PINS","Connector_Generic:Conn_01x07","Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical","~","","","","","","","","","","",""
-"9","1","J2","TRS_LINE_OUT","Connector_Audio:AudioJack3","Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal","~","","","","","","","","","","",""
-"10","1","JP1","SCK","Jumper:SolderJumper_3_Bridged12","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm","~","","","","","","","","","","",""
-"11","2","R1, R2","470","Device:R_Small","Resistor_SMD:R_0805_2012Metric","~","","","","","","","","","","",""
-"12","1","R3","10K","Device:R_Small","Resistor_SMD:R_0805_2012Metric","~","","","","","","","","","","",""
-"13","1","R4","100K","Device:R_Small","Resistor_SMD:R_0805_2012Metric","~","","","","","","","","","","",""
-"14","1","TP1","LEFT","Connector:TestPoint","TestPoint:TestPoint_Pad_2.0x2.0mm","~","","","","","","","","","","",""
-"15","1","TP2","RIGHT","Connector:TestPoint","TestPoint:TestPoint_Pad_2.0x2.0mm","~","","","","","","","","","","",""
-"16","1","TP3","GNDA","Connector:TestPoint","TestPoint:TestPoint_Pad_2.0x2.0mm","~","","","","","","","","","","",""
-"17","1","TP4","3.3VA","Connector:TestPoint","TestPoint:TestPoint_Pad_2.0x2.0mm","~","","","","","","","","","","",""
-"18","1","TP5","LDOO","Connector:TestPoint","TestPoint:TestPoint_Pad_2.0x2.0mm","~","","","","","","","","","","",""
-"19","1","U1","PCM5101A","Audio:PCM5101A","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","https://www.ti.com/lit/ds/symlink/pcm5101a.pdf","","","","","","","","","","",""
-"20","1","U2","MIC5225-3.3","Regulator_Linear:MIC5225-3.3YM5","Package_TO_SOT_SMD:SOT-23-5","","","https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=eda","Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5","576-2980-2-ND","Microchip","Microchip","MIC5225-3.3YM5-TR","SOT-23 Microchip","https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=379563&manufacturer=Microchip&part_name=MIC5225-3.3YM5-TR&search_term=None","IPC-7351B","https://www.snapeda.com/parts/MIC5225-3.3YM5-TR/Microchip/view-part/?ref=snap"
+Date:,"Wednesday, November 22, 2023 at 11:30:16 AM",,,,,,
+Component Count:,29,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DigiKey
+1,4,"C1, C7, C9, C11",0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,
+2,4,"C2, C8, C10, C12",10uF T,Device:C_Polarized_Small_US,Capacitor_SMD:C_0805_2012Metric,~,
+3,2,"C3, C5",0.0022uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,
+4,2,"C4, C6",2.2uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,
+5,1,C13,10uF,Device:C_Polarized_Small_US,Capacitor_SMD:C_0805_2012Metric,~,
+6,1,D1,PWR,Device:LED,LED_SMD:LED_0805_2012Metric,~,1497-XZCDGK54W-1VFCT-ND
+7,4,"FB1, FB2, FB3, FB4",HZ0805E601R,Device:FerriteBead_Small,Resistor_SMD:R_0805_2012Metric,~,240-2399-1-ND
+8,1,J2,TRS_LINE_OUT,Connector_Audio:AudioJack3,Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal,~,CP-3523SJCT-ND
+9,2,"R1, R2",470,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~,
+10,1,R3,10K,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~,
+11,1,R4,100K,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~,
+12,1,U1,PCM5101A,Audio:PCM5101A,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,https://www.ti.com/lit/ds/symlink/pcm5101a.pdf,296-36706-1-ND
+13,1,U2,AP2112K-3.3,Regulator_Linear:AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf,
