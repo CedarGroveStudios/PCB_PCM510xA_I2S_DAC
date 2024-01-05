@@ -482,7 +482,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCM510xA_I2S_DAC.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
